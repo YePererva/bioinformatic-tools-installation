@@ -1,3 +1,5 @@
+[HISAT2](https://daehwankimlab.github.io/hisat2/) + [HISAT-genotype](https://github.com/DaehwanKimLab/hisat-genotype)
+
 # Ubuntu 20.04
 ```
 sudo apt instal hisat2

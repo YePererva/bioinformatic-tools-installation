@@ -5,56 +5,51 @@ Some categorisation and software list were borrowed from [Holland Computing Cent
 
 ## Some of software, listed in instructions
 
-### Quality assessment of raw sequences
-- FastQC
-- QUAST
+- Quality assessment of raw sequences
+  - [FastQC](software/quality assesment/fastqc.md)
+  - QUAST
 
-### Alignment tools:
-- BLAT
-- Bowtie / bowtie2
-- Clustal Omega [website](http://www.clustal.org/)
-- TopHat2 (low maintenance, replaced by HISAT)
-- [HISAT2](https://daehwankimlab.github.io/hisat2/) + [HISAT-genotype](https://github.com/DaehwanKimLab/hisat-genotype)
-- BLAST2
-- Burrows-Wheeler Aligner (BWA)
+- Alignment tools:
+  - BLAT
+  - Bowtie / bowtie2
+  - Clustal Omega
+  - TopHat2 (low maintenance, replaced by HISAT)
+  - [HISAT2 + genotype]
+  - BLAST2
+  - Burrows-Wheeler Aligner (BWA)
 
-### Data Manipulation Tools:
-- SRAtoolkit
-- BamTools
-- SAMtools
+- Data Manipulation Tools:
+  - SRAtoolkit
+  - BamTools
+  - SAMtools
+- *De novo* assembly tools
+  - [Velvet + Oases]
+  - [Ray]
+  - SOAPdenovo2
+  - SOAPdenovo
+  - SPAdes
+  - QIIME II
+  - [TrinityRNAseq]
 
-### *De novo* assembly tools
-- [Velvet](https://github.com/dzerbino/velvet) / [Oases](https://github.com/dzerbino/oases)
-- [Ray](https://github.com/sebhtml/ray)
-- SOAPdenovo2
-- SOAPdenovo
-- [TrinityRNAseq](https://github.com/trinityrnaseq/trinityrnaseq/wiki)
+- Pre-processing tools
+  - Cutadapt
+  - PRINSEQ
+  - PRINSEQ++
+  - Scythe
+  - Sickle
+  - TagCleaner
 
-  Don't be confused with trinity desktop environment
+- Reference based assembly tools
+  - Cufflinks
 
-- SPAdes
-- QIIME II
+- Tools for removing / Detecting redundant sequences
+  - CAP3
+  - CD-HIT
 
-### Preprocessing tools
-- Cutadapt
-- PRINSEQ
-- PRINSEQ++
-- Scythe
-- Sickle
-- TagCleaner
-
-
-### Reference based assembly tools
-- Cufflinks
-
-### Tools for removing / Detecting redundant sequences
-- CAP3
-- CD-HIT
-
-### General purpose tools:
-- BioPerl
-- BioPython
-- Bio++ Suite
+- General purpose tools:
+  - BioPerl
+  - BioPython
+  - Bio++ Suite
 
 ## Remark regarding Ubuntu
 **NB! :** When referring to Ubuntu, it refers to both native Ubuntu installation and Ubuntu running from under Windows
