@@ -19,9 +19,9 @@ Some categorisation and software list were borrowed from [Holland Computing Cent
   - [Burrows-Wheeler Aligner](./software/alignment/bwa.md) (BWA)
 
 - Data Manipulation Tools:
-  - [SRAtoolkit](./software/data_manipulation/bamtools.md)
-  - [BamTools](./software/data_manipulation/samtools.md)
-  - [SAMtools](./software/data_manipulation/sratoolkit.md)
+  - [SRAtoolkit](./software/data_manipulation/sratoolkit.md)
+  - [BAMTools](./software/data_manipulation/bamtools.md)
+  - [SAMtools](./software/data_manipulation/samtools.md)
 
 - *De novo* assembly tools:
   - [Velvet + Oases](./software/de_novo_assemblers/velvet+oases.md)
@@ -41,16 +41,16 @@ Some categorisation and software list were borrowed from [Holland Computing Cent
   - [TagCleaner](./software/pre-processing/tagcleaner.md)
 
 - Reference based assembly tools:
-  - Cufflinks
+  - [Cufflinks](./software/reference-based_assemblers/cufflinks.md)
 
 - Tools for removing / Detecting redundant sequences
-  - CAP3
-  - CD-HIT
+  - [CAP3](./software/redundancy_detectors_and_removers/cap3.md)
+  - [CD-HIT](./software/redundancy_detectors_and_removers/cd-hit.md)
 
 - General purpose tools:
-  - BioPerl
-  - BioPython
-  - Bio++ Suite
+  - [BioPerl](./software/general_purpose/bioperl.md)
+  - [BioPython](./software/general_purpose/biopython.md)
+  - [Bio++ Suite](./software/general_purpose/bio++suite.md)
 
 ## Remark regarding Ubuntu
 **NB! :** When referring to Ubuntu, it refers to both native Ubuntu installation and Ubuntu running from under Windows
