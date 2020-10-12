@@ -6,7 +6,7 @@ Some categorisation and software list were borrowed from [Holland Computing Cent
 ## Some of software, listed in instructions
 
 - Quality assessment of raw sequences
-  - [FastQC](software/quality assesment/fastqc.md)
+  - [FastQC](./software/quality assessment/fastqc.md)
   - QUAST
 
 - Alignment tools:
