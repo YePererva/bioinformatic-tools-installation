@@ -1,4 +1,9 @@
-# Ubuntu 20.04
+# QUality ASsessment Tool for Genome Assemblies
+[Project web page](http://quast.sourceforge.net/quast)
+
+At the moment of writing this the latest stable version 5.0.2 raises an error. It is suggested to use the release candidate 5.1.0rc1.
+
+## Ubuntu 20.04
 
 ```
 sudo apt install -y zlib1g-dev pkg-config libfreetype6-dev libpng-dev python3-matplotlib
