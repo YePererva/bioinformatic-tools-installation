@@ -1,3 +1,5 @@
+# Clustal Omega [website](http://www.clustal.org/)
+
 # Ubuntu 20.04
 ```
 sudo apt install clustalo
