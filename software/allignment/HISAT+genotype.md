@@ -1,0 +1,12 @@
+# Ubuntu 20.04
+```
+sudo apt instal hisat2
+hisat2 --help
+git clone https://github.com/DaehwanKimLab/hisat-genotype.git ~/hisatgenotype
+cd hisatgenotype
+bash setup.sh -r
+# to replace all association with Python2 as with Python3
+find ./ -type f -name *.py -exec sed -i '1 s/python/python3/g' {} \;
+
+hisatgenotype --help
+```
