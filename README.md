@@ -7,16 +7,16 @@ Some categorisation and software list were borrowed from [Holland Computing Cent
 
 - Quality assessment of raw sequences
   - [FastQC](./software/quality_assessment/fastqc.md)
-  - QUAST
+  - [QUAST](./software/quality_assessment/quast.md)
 
 - Alignment tools:
-  - BLAT
-  - Bowtie / bowtie2
-  - Clustal Omega
-  - TopHat2 (low maintenance, replaced by HISAT)
-  - [HISAT2 + genotype]
-  - BLAST2
-  - Burrows-Wheeler Aligner (BWA)
+  - [BLAT](./software/alignment/blat.md)
+  - [Bowtie / Bowtie2](./software/alignment/bowtie.md)
+  - [Clustal Omega](./software/alignment/clustal.md)
+  - [TopHat2](./software/alignment/tophat2.md) (low maintenance, replaced by HISAT)
+  - [HISAT2 + genotype](./software/alignment/hisat.md)
+  - [BLAST2](./software/alignment/blast+.md)
+  - [Burrows-Wheeler Aligner](./software/alignment/bwa.md) (BWA)
 
 - Data Manipulation Tools:
   - SRAtoolkit
