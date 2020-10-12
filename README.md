@@ -5,7 +5,7 @@ Some categorisation and software list were borrowed from [Holland Computing Cent
 
 ## Some of software, listed in instructions
 
-- Quality assessment of raw sequences
+- Quality assessment of raw sequences:
   - [FastQC](./software/quality_assessment/fastqc.md)
   - [QUAST](./software/quality_assessment/quast.md)
 
@@ -19,27 +19,28 @@ Some categorisation and software list were borrowed from [Holland Computing Cent
   - [Burrows-Wheeler Aligner](./software/alignment/bwa.md) (BWA)
 
 - Data Manipulation Tools:
-  - SRAtoolkit
-  - BamTools
-  - SAMtools
-- *De novo* assembly tools
-  - [Velvet + Oases]
-  - [Ray]
-  - SOAPdenovo2
-  - SOAPdenovo
-  - SPAdes
-  - QIIME II
-  - [TrinityRNAseq]
+  - [SRAtoolkit](./software/data_manipulation/bamtools.md)
+  - [BamTools](./software/data_manipulation/samtools.md)
+  - [SAMtools](./software/data_manipulation/sratoolkit.md)
 
-- Pre-processing tools
-  - Cutadapt
-  - PRINSEQ
-  - PRINSEQ++
-  - Scythe
-  - Sickle
-  - TagCleaner
+- *De novo* assembly tools:
+  - [Velvet + Oases](./software/de_novo_assemblers/velvet+oases.md)
+  - [Ray](./software/de_novo_assemblers/ray.md)
+  - [SOAPdenovo2](./software/de_novo_assemblers/soapdenovo2.md)
+  - [SOAPdenovo](./software/de_novo_assemblers/soapdenovo.md)
+  - [SPAdes](./software/de_novo_assemblers/spades.md)
+  - [QIIME II](./software/de_novo_assemblers/qiime_ii.md)
+  - [TrinityRNAseq](./software/de_novo_assemblers/trinityrnaseq.md)
 
-- Reference based assembly tools
+- Pre-processing tools:
+  - [Cutadapt](./software/pre-processing/cutadapt.md)
+  - [PRINSEQ](./software/pre-processing/prinseq.md)
+  - [PRINSEQ++](./software/pre-processing/prinseq++.md)
+  - [Scythe](./software/pre-processing/scythe.md)
+  - [Sickle](./software/pre-processing/sinkle.md)
+  - [TagCleaner](./software/pre-processing/tagcleaner.md)
+
+- Reference based assembly tools:
   - Cufflinks
 
 - Tools for removing / Detecting redundant sequences
