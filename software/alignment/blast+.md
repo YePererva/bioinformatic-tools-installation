@@ -23,3 +23,10 @@ blastn -version
 # update database
 update_blastdb.pl --passive --decompress 16S_ribosomal_RNA
 ```
+
+**NB! :** Check the latest version at this repository: https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/
+
+Add BLAST to a system `$PATH` variable
+```
+export PATH=$HOME/metagenomics/ncbi-blast+/bin:$PATH
+```
