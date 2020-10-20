@@ -1,7 +1,7 @@
 # Bioinformatic tools installation guides
 Collection of instructions for installation of various bioinformatic tools.
 
-Some categorisation and software list were borrowed from [Holland Computing Center](https://hcc.unl.edu/docs/applications/app_specific/bioinformatics_tools/)
+Some categorisation and software list were borrowed from [Holland Computing Center](https://hcc.unl.edu/docs/applications/app_specific/bioinformatics_tools/), [Metagenomics.wiki](http://www.metagenomics.wiki/tools/assembly)
 
 ## Some of software, listed in instructions
 
