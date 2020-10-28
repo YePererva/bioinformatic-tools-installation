@@ -5,6 +5,7 @@ Some categorisation and software list were borrowed from:
 - [Holland Computing Center](https://hcc.unl.edu/docs/applications/app_specific/bioinformatics_tools/)
 - [Metagenomics.wiki](http://www.metagenomics.wiki/tools/assembly)
 - [The University of Texas in Austin](https://wikis.utexas.edu/display/bioiteam/Software)
+- [Hummingbird Computational Cluster](https://www.hb.ucsc.edu/documentation/hummingbird-hardware-configurations/)
 
 ## Some of software, listed in instructions
 
