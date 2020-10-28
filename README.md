@@ -65,3 +65,16 @@ In the popped-up windows find `Windows Subsystem for Linux` checkbox and make su
 2. Reboot Windows.
 3. `Start` button -> Type `Microsoft Store` -> Find `Ubuntu` or `Ubuntu 20.04 LTS` and install it.
 4. To run `Ubuntu`: `Start` button -> type `bash` and hit `Enter`
+
+## Plans
+- [ ] add instruction for installation for:
+  - [ ] Ubuntu 20
+  - [ ] Fedora 33
+- [ ] add instructions for installation and use with [`Environment Modules`]()
+
+
+`Environment Modules` can be installed for:
+- Ubuntu 20.04:\
+  `sudo apt install environment-modules -y`
+- Fedora 33:\
+  `sudo dnf install environment-modules -y`
