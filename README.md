@@ -73,8 +73,16 @@ In the popped-up windows find `Windows Subsystem for Linux` checkbox and make su
 - [ ] add instructions for installation and use with [`Environment Modules`]()
 
 
+## Environment Modules
+
+[Project Website]() | [Github]() | [Wikipedia](https://en.wikipedia.org/wiki/Environment_Modules_(software))
+
 `Environment Modules` can be installed for:
 - Ubuntu 20.04:\
   `sudo apt install environment-modules -y`
 - Fedora 33:\
   `sudo dnf install environment-modules -y`
+- CentOS 8:\
+  `sudo yum install environment-modules`
+- Arch:\
+  `sudo pamac -S env-modules` (not tested yet)
