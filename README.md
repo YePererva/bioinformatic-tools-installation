@@ -29,6 +29,7 @@ Some categorisation and software list were borrowed from:
   - [SAMtools](./software/data_manipulation/samtools.md)
 
 - *De novo* assembly tools:
+  - [Abyss](./software/de_novo_assemblers/abyss.md)
   - [Velvet + Oases](./software/de_novo_assemblers/velvet+oases.md)
   - [Ray](./software/de_novo_assemblers/ray.md)
   - [SOAPdenovo2](./software/de_novo_assemblers/soapdenovo2.md)
