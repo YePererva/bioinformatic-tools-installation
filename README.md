@@ -6,6 +6,7 @@ Some categorisation and software list were borrowed from:
 - [Metagenomics.wiki](http://www.metagenomics.wiki/tools/assembly)
 - [The University of Texas in Austin](https://wikis.utexas.edu/display/bioiteam/Software)
 - [Hummingbird Computational Cluster](https://www.hb.ucsc.edu/documentation/hummingbird-hardware-configurations/)
+- [BioLinux](http://environmentalomics.org/bio-linux-software-list/)
 
 ## Some of software, listed in instructions
 
