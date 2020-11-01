@@ -1,4 +1,5 @@
-ABYSS
+#ABYSS
+ABySS is a de novo, parallel, paired-end sequence assembler that is designed for short reads.
 
 [Project](https://www.bcgsc.ca/resources/software/abyss) | [Github](https://github.com/bcgsc/abyss)
 

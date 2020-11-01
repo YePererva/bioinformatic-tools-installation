@@ -7,3 +7,11 @@
   sudo mv ./blat /usr/local/bin
   sudo chmod 755 /usr/local/bin/blat
   ```
+
+# Fedora 33
+Same as Ubuntu:
+```
+wget http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/blat/blat
+sudo mv ./blat /usr/local/bin
+sudo chmod 755 /usr/local/bin/blat
+```
