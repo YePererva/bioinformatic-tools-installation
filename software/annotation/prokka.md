@@ -11,10 +11,24 @@ $HOME/prokka/bin/prokka --setupdb
 ```
 
 ```
+# this does work until next reboot
 export prokka=$HOME/prokka/bin/prokka
+# this also works until reboot
+alias prokka="$HOME/prokka/bin/prokka"
 ```
+Now, can be ran as `$prokka`, alternativelly, add as permanent alias by editing `~/.bashrc`:
 
-Now, can be ran as `$prokka`
+```
+alias prokka=$HOME/prokka/bin/prokka
+```
+And now, can be run as `prokka`. THis will be enugh to run from interactive shell, but not for scripts!
+
+The better way:
+```
+sudo mv $HOME/prokka /usr/local
+export PATH=$PATH:/usr/local/prokka/bin
+```
+Now, it can be ran as `prokka`
 
 ## Fedora 33
 
