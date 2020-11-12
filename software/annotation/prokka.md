@@ -4,8 +4,10 @@
 
 # Ubuntu 20.04
 ```
-sudo apt update && sudo apt install -y libdatetime-perl libxml-simple-perl libdigest-md5-perl git default-jre bioperl
+sudo apt update
+sudo apt install -y libdatetime-perl libxml-simple-perl libdigest-md5-perl git default-jre bioperl
 sudo cpan Bio::Perl
+sudo cpan Bio::SearchIO::hmmer3
 git clone https://github.com/tseemann/prokka.git $HOME/prokka
 $HOME/prokka/bin/prokka --setupdb
 ```
