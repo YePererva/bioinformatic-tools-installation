@@ -2,8 +2,7 @@
 
 # Ubuntu 20.04
 ```
-sudo apt instal hisat2
-hisat2 --help
+sudo apt install hisat2 --help
 git clone https://github.com/DaehwanKimLab/hisat-genotype.git ~/hisatgenotype
 cd hisatgenotype
 bash setup.sh -r
@@ -12,3 +11,5 @@ find ./ -type f -name *.py -exec sed -i '1 s/python/python3/g' {} \;
 
 hisatgenotype --help
 ```
+
+**NB! :** hisat is not available anymore for installation via `apt install`
