@@ -23,7 +23,7 @@ Now, can be ran as `$prokka`, alternativelly, add as permanent alias by editing 
 ```
 alias prokka=$HOME/prokka/bin/prokka
 ```
-And now, can be run as `prokka`. THis will be enugh to run from interactive shell, but not for scripts!
+And now, can be run as `prokka`. This will be enough to run from interactive shell, but not for scripts!
 
 The better way:
 ```
