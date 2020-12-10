@@ -50,6 +50,9 @@ rm -f ./*.gz
 mv TIGRFAMs_15.0_HMM.LIB 1_TIGRFAMs.hmm
 mv Pfam-A.hmm 2_Pfam_A.hmm
 mv HAMAP.hmm 3_HAMAP.hmm
+
+# repeat indexing of databases
+prokka --setupdb
 ```
 
 
