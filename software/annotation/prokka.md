@@ -32,6 +32,27 @@ export PATH=$PATH:/usr/local/prokka/bin
 ```
 Now, it can be ran as `prokka`
 
+As stated [here](https://www.biostars.org/p/473293/), there is a conflict between NCBI annotation and PROKKA for prokaryotic genomes. Possibly, due to a different databases.
+Fixable as:
+```
+cd /usr/local/prokka/db/hmm
+rm -f ./*.hmm.*
+# check link here for the latest release ftp://ftp.jcvi.org/pub/data/TIGRFAMs
+wget ftp://ftp.jcvi.org/pub/data/TIGRFAMs/TIGRFAMs_15.0_HMM.LIB.gz
+wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+
+# unpack and purge archives
+gunzip ./*.gz
+rm -f ./*.gz
+
+# Renaming databases to specify the order
+# don't use '-' and '.' in names! it results in problems
+mv TIGRFAMs_15.0_HMM.LIB 1_TIGRFAMs.hmm
+mv Pfam-A.hmm 2_Pfam_A.hmm
+mv HAMAP.hmm 3_HAMAP.hmm
+```
+
+
 ## Fedora 33
 
 ```
