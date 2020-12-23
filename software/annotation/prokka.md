@@ -55,12 +55,24 @@ mv HAMAP.hmm 3_HAMAP.hmm
 prokka --setupdb
 ```
 
+May require purge:
+```
+prokka --cleandb
+prokka --setupdb --dbdir /usr/local/prokka/db
+```
+
 
 ## Fedora 33
 
 ```
-sudo dnf install -y git perl-Time-Piece perl-XML-Simple perl-Digest-MD5 perl-App-cpanminus git java perl-CPAN perl-Module-Build
-sudo cpanm Bio::Perl
-git clone https://github.com/tseemann/prokka.git $HOME/prokka
-$HOME/prokka/bin/prokka --setupdb
+sudo dnf install -y git perl-Time-Piece perl-XML-Simple perl-Digest-MD5 perl-App-cpanminus git java perl-CPAN perl-Module-Build perl libnsl
+sudo cpan XML::DOM::XPath --force
+sudo cpan Bio::Perl
+sudo cpan Bio::SearchIO::hmmer3
+sudo cpan Bio::Root::Version
+sudo cpan Bio::DB::BioFetch
+sudo cpan Bio::DB::WebDBSeqI
+
+git clone https://github.com/tseemann/prokka.git /usr/local/prokka
+/usr/local/prokka/bin/prokka --setupdb
 ```
