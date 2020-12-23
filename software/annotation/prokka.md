@@ -68,6 +68,7 @@ sudo dnf install -y git perl-Time-Piece perl-XML-Simple perl-Digest-MD5 perl-App
 sudo cpan XML::DOM::XPath --force
 sudo cpan Bio::Perl
 sudo cpan Bio::SearchIO::hmmer3
+# this doesn't work for now:
 sudo cpan Bio::Root::Version
 sudo cpan Bio::DB::BioFetch
 sudo cpan Bio::DB::WebDBSeqI
