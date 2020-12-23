@@ -1,4 +1,4 @@
 # Ubuntu 20.04
 ```
-sudo apt install soapdenovo
+sudo apt install -y soapdenovo
 ```

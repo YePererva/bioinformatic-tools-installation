@@ -1,4 +1,4 @@
 # Ubuntu 20.04
 ```
-sudo apt install cutadapt
+sudo apt install -y cutadapt
 ```

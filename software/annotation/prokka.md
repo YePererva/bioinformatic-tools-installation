@@ -43,7 +43,6 @@ wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
 
 # unpack and purge archives
 gunzip ./*.gz
-rm -f ./*.gz
 
 # Renaming databases to specify the order
 # don't use '-' and '.' in names! it results in problems

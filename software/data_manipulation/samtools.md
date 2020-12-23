@@ -4,7 +4,7 @@
 
 ## Ubuntu 20.04
 ```
-sudo apt install samtools
+sudo apt install -y samtools
 ```
 
 ## Fedora 33

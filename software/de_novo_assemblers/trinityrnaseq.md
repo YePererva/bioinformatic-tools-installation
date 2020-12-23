@@ -3,7 +3,7 @@
 
 ## Ubuntu 20.04
 ```
-sudo apt install trinityrnaseq
+sudo apt install-y  trinityrnaseq
 ```
 
 ## Fedora 33

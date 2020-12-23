@@ -2,7 +2,7 @@
 
 ## Ubuntu 20.04
 ```
-sudo apt install soapdenovo2
+sudo apt install -y soapdenovo2
 ```
 
 

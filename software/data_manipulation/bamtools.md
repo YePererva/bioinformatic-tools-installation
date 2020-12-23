@@ -1,4 +1,4 @@
 # Ubuntu 20.04
 ```
-sudo apt install bamtools
+sudo apt install -y bamtools
 ```
