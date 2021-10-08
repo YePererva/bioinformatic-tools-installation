@@ -60,6 +60,24 @@ prokka --cleandb
 prokka --setupdb --dbdir /usr/local/prokka/db
 ```
 
+**NB!**: There is a [known issue](https://github.com/tseemann/prokka/issues/139) that tool [tbl2asn](https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2/) within `prokka` distribution is outdated. It results in errors alike ` Could not run command: tbl2asn ...`. The fresh tbl2ans can be taken [here](https://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/tbl2asn/) and should replace the `tbl2asn` in the `prokka` distro.
+
+Buy default it is located at `$home/prokka/binaries/linux/tbl2asn`. To do so:
+
+```
+# remove old file
+rm -f $home/prokka/binaries/linux/tbl2asn
+# download the new file as archive
+wget https://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/tbl2asn/linux64.tbl2asn.gz
+# unpack the archive
+gunzip ./linux64.tbl2asn.gz
+# move / copy the binary to the target location (may require sudo depending on your location)
+# or to any other location within $PATH variable
+mv ./linux64.tbl2asn $home/prokka/binaries/linux/tbl2asn
+# add permission to execute
+sudo chmod +x $home/prokka/binaries/linux/tbl2asn
+```
+
 
 ## Fedora 33
 
