@@ -14,6 +14,9 @@ Some categorisation and software list were borrowed from:
   - [FastQC](./software/quality_assessment/fastqc.md)
   - [QUAST](./software/quality_assessment/quast.md)
 
+- Annotation:
+  - [prokka](./software/annotation/prokka.md)
+
 - Alignment tools:
   - [BLAT](./software/alignment/blat.md)
   - [Bowtie / Bowtie2](./software/alignment/bowtie.md)
