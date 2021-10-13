@@ -8,7 +8,7 @@ Some categorisation and software list were borrowed from:
 - [Hummingbird Computational Cluster](https://www.hb.ucsc.edu/documentation/hummingbird-hardware-configurations/)
 - [BioLinux](http://environmentalomics.org/bio-linux-software-list/)
 
-## Some of software, listed in instructions
+## List of software in instructions
 
 - Quality assessment of raw sequences:
   - [FastQC](./software/quality_assessment/fastqc.md)
