@@ -1,4 +1,4 @@
-# Bioinformatic tools installation guides
+# [Bioinformatic tools installation guides](https://yepererva.github.io/bioinformatic-tools-installation/)
 Collection of instructions for installation of various bioinformatic tools.
 
 Some categorisation and software list were borrowed from:
