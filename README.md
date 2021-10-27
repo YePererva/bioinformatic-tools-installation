@@ -68,22 +68,33 @@ To install Ubuntu from under Windows 10:
 1. `Start` button -> type `Control Panel` -> navigate to `Programs and Features` -> Click on `Turn Windows Features on or off`
 In the popped-up windows find `Windows Subsystem for Linux` checkbox and make sure it's checked.
 2. Reboot Windows.
-3. `Start` button -> Type `Microsoft Store` -> Find `Ubuntu` or `Ubuntu 20.04 LTS` and install it.
-4. To run `Ubuntu`: `Start` button -> type `bash` and hit `Enter`
+3. OPTIONAL:\
+  - If windows is not fully updated, it uses WSL 1, but WSL2 is more preferable. To force use of WSL2, open `PowerShell` and type `wsl.exe --set-default-version 2`
+  - after that update Windows 10, reboot may be required
+4. `Start` button -> Type `Microsoft Store` -> Find `Ubuntu` or `Ubuntu 20.04 LTS` and install it.
+5. To run `Ubuntu`: `Start` button -> type `bash` and hit `Enter`
+6. There are issues with `snapd` running at `WSL`. Better to remove it: `sudo apt remove snapd -y`
 
-## Plans
-- [ ] add instruction for installation for:
-  - [ ] Ubuntu 20
-  - [ ] Fedora 33
-- [ ] add instructions for installation and use with [`Environment Modules`]()
 
+To upgrade the Ubuntu on Windows 10 WSL
+
+1. Force use of WSL 2
+  - Open `PowerShell` and run `wsl.exe --set-default-version 2`
+2. Convert the existing installation of Ubuntu to WSL2 :
+  - Open `PowerShell` and run`wsl.exe --set-version Ubuntu 2`
+3. Update Windows 10 (reboot may be required)
+4. run `bash` and perform:
+  - `sudo apt remove snapd -y`
+  - `sudo apt update && sudo apt full-upgrade -y`
+  - edit `/etc/update-manager/release-upgrades` file and nake sure that line with `Prompt=` is `Prompt=normal`
+  - `sudo do-release-upgrade -d`
 
 ## Environment Modules
 
 [Project Website]() | [Github]() | [Wikipedia](https://en.wikipedia.org/wiki/Environment_Modules_(software))
 
 `Environment Modules` can be installed for:
-- Ubuntu 20.04:\
+- Ubuntu 20.04, 21.10:\
   `sudo apt install environment-modules -y`
 - Fedora 33:\
   `sudo dnf install environment-modules -y`
