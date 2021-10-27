@@ -76,18 +76,20 @@ In the popped-up windows find `Windows Subsystem for Linux` checkbox and make su
 6. There are issues with `snapd` running at `WSL`. Better to remove it: `sudo apt remove snapd -y`
 
 
-To upgrade the Ubuntu on Windows 10 WSL
+To upgrade the Ubuntu on Windows 10 WSL (not from 20.04!)
 
-1. Force use of WSL 2
+1. [Download](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) and install [WSL2 core update](https://docs.microsoft.com/en-gb/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package)
+2. Force use of WSL 2
   - Open `PowerShell` and run `wsl.exe --set-default-version 2`
-2. Convert the existing installation of Ubuntu to WSL2 :
+3. Convert the existing installation of Ubuntu to WSL2 :
   - Open `PowerShell` and run`wsl.exe --set-version Ubuntu 2`
-3. Update Windows 10 (reboot may be required)
-4. run `bash` and perform:
+4. Update Windows 10 (reboot may be required)
+5. run `bash` and perform:
   - `sudo apt remove snapd -y`
   - `sudo apt update && sudo apt full-upgrade -y`
-  - edit `/etc/update-manager/release-upgrades` file and nake sure that line with `Prompt=` is `Prompt=normal`
+  - edit `/etc/update-manager/release-upgrades` file and make sure that line with `Prompt=` is `Prompt=normal`
   - `sudo do-release-upgrade -d`
+6. Restart the linux terminal
 
 ## Environment Modules
 
