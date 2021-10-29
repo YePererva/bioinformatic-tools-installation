@@ -56,6 +56,9 @@ Some categorisation and software list were borrowed from:
   - [CAP3](./software/redundancy_detectors_and_removers/cap3.md)
   - [CD-HIT](./software/redundancy_detectors_and_removers/cd-hit.md)
 
+- Taxonomic classification
+  - [GTDB-Tk](./software/taxonomic_classification/gtdbtl.md)
+
 - General purpose tools:
   - [BioPerl](./software/general_purpose/bioperl.md)
   - [BioPython](./software/general_purpose/biopython.md)
