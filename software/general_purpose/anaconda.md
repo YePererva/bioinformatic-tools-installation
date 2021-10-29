@@ -15,8 +15,13 @@ wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
 bash Anaconda3*.sh -u
 ```
 
-Now, after agreeing with use licence it will ask for installation location. Type `/opt/anaconda3`
-
+Now, after agreeing with use licence it will ask for installation location. Type `/opt/anaconda3` and continue installation:
+```
+# set hooks
+/opt/anaconda3/bin/conda shell.bash hook
+/opt/anaconda3/bin/conda init
+conda config --set auto_activate_base false
+```
 
 ## After installation
 
