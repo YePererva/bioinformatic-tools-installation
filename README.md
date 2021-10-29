@@ -60,6 +60,7 @@ Some categorisation and software list were borrowed from:
   - [BioPerl](./software/general_purpose/bioperl.md)
   - [BioPython](./software/general_purpose/biopython.md)
   - [Bio++ Suite](./software/general_purpose/bio++suite.md)
+  - [Anaconda3](./software/general_purpose/anaconda.md)
 
 ## Remark regarding Ubuntu
 **NB! :** When referring to Ubuntu, it refers to both native Ubuntu installation and Ubuntu running from under Windows
