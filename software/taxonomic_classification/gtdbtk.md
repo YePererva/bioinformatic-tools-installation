@@ -21,20 +21,19 @@ rm  -f ./download-db.sh
 
 ## For less performative PCs
 
-1.42 + R95
+1.4.1 + R95
 
 ```
 cd ~/Downloads
-conda create -n gtdbtk-1.4.2 -c conda-forge -c bioconda gtdbtk=1.4
-conda activate gtdbtk-1.4.2
+conda create -n gtdbtk-1.4 -c conda-forge -c bioconda gtdbtk=1.4
+conda activate gtdbtk-1.4
 
 # make sure it is not pointing to the freshest installation
 echo ${GTDBTK_DATA_PATH}
 
-wget https://data.gtdb.ecogenomic.org/releases/release95/95.0/auxillary_files/gtdbtk_r95_data.tar.gz -P ${GTDBTK_DATA_PATH}
-
+wget https://data.gtdb.ecogenomic.org/releases/release95/95.0/auxillary_files/gtdbtk_r95_data.tar.gz
 tar xvzf gtdbtk_r95_data.tar.gz -C ${GTDBTK_DATA_PATH} --strip 1
-rm gtdbtk_r95_data.tar.gz
+rm ./gtdbtk_r95_data.tar.gz
 
 conda deactivate
 ```
