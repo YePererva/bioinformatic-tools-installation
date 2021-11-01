@@ -25,7 +25,7 @@ rm  -f ./download-db.sh
 
 ```
 cd ~/Downloads
-conda create -n gtdbtk-1.4.2 -c conda-forge -c bioconda gtdbtk=1.4.2
+conda create -n gtdbtk-1.4.2 -c conda-forge -c bioconda gtdbtk=1.4
 conda activate gtdbtk-1.4.2
 
 # make sure it is not pointing to the freshest installation
