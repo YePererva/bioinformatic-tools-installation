@@ -97,7 +97,7 @@ To upgrade the Ubuntu on Windows 10 WSL (not from 20.04!)
 
 ## Environment Modules
 
-[Project Website]() | [Github]() | [Wikipedia](https://en.wikipedia.org/wiki/Environment_Modules_(software))
+[Project Website](http://modules.sourceforge.net/) | [Github](https://github.com/cea-hpc/modules) | [Wikipedia](https://en.wikipedia.org/wiki/Environment_Modules_(software))
 
 `Environment Modules` can be installed for:
 - Ubuntu 20.04, 21.10:\
